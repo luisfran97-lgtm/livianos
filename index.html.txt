@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Livianos | Calzado cómodo con envío incluido</title>
+  <<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f6f6f6;
+      color: #222;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 25px 15px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin: 10px 0 0;
+      font-size: 16px;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    .promo {
+      background: #000;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 25px;
+      border-radius: 8px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+    .product {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .product h2 {
+      margin: 10px 0 5px;
+      font-size: 22px;
+    }
+    .product p {
+      margin: 6px 0;
+      font-size: 15px;
+    }
+    .price {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .btn {
+      display: block;
+      text-decoration: none;
+      background: #000;
+      color: white;
+      padding: 14px;
+      border-radius: 8px;
+      margin-top: 12px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #333;
+    }
+    .features {
+      margin-top: 40px;
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+    }
+    .features h3 {
+      margin-top: 0;
+      text-align: center;
+      font-size: 24px;
+    }
+    .features ul {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: auto;
+    }
+    .features li {
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+      font-size: 16px;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #666;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>LIVIANOS</h1>
+  <p>Calzado cómodo, elegante y duradero · Envío incluido</p>
+</header>
+
+<div class="container">
+
+  <div class="promo">
+    🔥 $1,199 MXN el par · 🔥 2 pares por $2,100 MXN · 🚚 Envío incluido
+  </div>
+
+  <div class="products">
+
+    <!-- MODELO BOSTONIANO -->
+    <div class="product">
+      <img src="bostoniano.jpg" alt="Modelo Bostoniano Café">
+      <h2>Modelo Bostoniano</h2>
+      <p>Color café</p>
+      <p>Tallas disponibles: 25 al 30</p>
+      <div class="price">$1,199 MXN</div>
+      <a class="btn" href="https://link.mercadopago.com.mx/livianos" target="_blank">
+        Comprar ahora
+      </a>
+    </div>
+
+    <!-- MODELO 009 -->
+    <div class="product">
+      <img src="009.jpg" alt="Modelo 009 Negro">
+      <h2>Modelo 009</h2>
+      <p>Color negro</p>
+      <p>Tallas disponibles: 25 al 30</p>
+      <div class="price">$1,199 MXN</div>
+      <a class="btn" href="https://link.mercadopago.com.mx/livianos" target="_blank">
+        Comprar ahora
+      </a>
+    </div>
+
+  </div>
+
+  <div class="features">
+    <h3>¿Por qué elegir LIVIANOS?</h3>
+    <ul>
+      <li>✔ Calzado cómodo ideal para uso diario</li>
+      <li>✔ Diseño elegante y formal</li>
+      <li>✔ Fabricado en León, Guanajuato</li>
+      <li>✔ Envío incluido a todo México</li>
+      <li>✔ Compra segura con Mercado Pago</li>
+    </ul>
+  </div>
+
+</div>
+
+<a class="whatsapp" 
+   href="https://wa.me/524776206545?text=Hola%20quiero%20informes%20sobre%20el%20calzado%20Livianos" 
+   target="_blank">
+  WhatsApp
+</a>
+
+<footer>
+  © 2025 LIVIANOS · Calzado cómodo y elegante
+</footer>
+
+</body>
+</html>
