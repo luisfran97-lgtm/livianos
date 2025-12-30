@@ -18,6 +18,10 @@ header{
   padding:20px;
   text-align:center;
 }
+header img{
+  max-width:140px;
+  margin-bottom:10px;
+}
 .container{
   padding:20px;
   max-width:1000px;
@@ -30,8 +34,10 @@ header{
   margin-bottom:20px;
   box-shadow:0 4px 10px rgba(0,0,0,.1);
 }
-.card h2{
-  margin-top:0;
+.card img{
+  width:100%;
+  border-radius:10px;
+  margin-bottom:10px;
 }
 .price{
   font-size:22px;
@@ -89,6 +95,7 @@ footer{
 <body>
 
 <header>
+  <img src="logo.png" alt="Livianos">
   <h1>LIVIANOS</h1>
   <p>Calzado cómodo • Envío incluido</p>
 </header>
@@ -96,13 +103,18 @@ footer{
 <div class="container">
 
   <div class="card">
+    <img src="bostoniano.jpg" alt="Modelo Bostoniano Café">
     <h2>Modelo Bostoniano (Café)</h2>
     <p>Elegante, ligero y muy cómodo.</p>
     <div class="price">$1,199 MXN</div>
     <select>
       <option>Selecciona tu talla</option>
-      <option>25</option><option>26</option><option>27</option>
-      <option>28</option><option>29</option><option>30</option>
+      <option>25</option><option>25.5</option>
+      <option>26</option><option>26.5</option>
+      <option>27</option><option>27.5</option>
+      <option>28</option><option>28.5</option>
+      <option>29</option><option>29.5</option>
+      <option>30</option>
     </select>
     <a class="button" href="https://link.mercadopago.com.mx/livianos" target="_blank">
       Comprar ahora
@@ -110,13 +122,18 @@ footer{
   </div>
 
   <div class="card">
+    <img src="modelo009.jpg" alt="Modelo 009 Negro">
     <h2>Modelo 009 (Negro)</h2>
     <p>Clásico, resistente y cómodo.</p>
     <div class="price">$1,199 MXN</div>
     <select>
       <option>Selecciona tu talla</option>
-      <option>25</option><option>26</option><option>27</option>
-      <option>28</option><option>29</option><option>30</option>
+      <option>25</option><option>25.5</option>
+      <option>26</option><option>26.5</option>
+      <option>27</option><option>27.5</option>
+      <option>28</option><option>28.5</option>
+      <option>29</option><option>29.5</option>
+      <option>30</option>
     </select>
     <a class="button" href="https://link.mercadopago.com.mx/livianos" target="_blank">
       Comprar ahora
